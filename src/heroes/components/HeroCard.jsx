@@ -16,7 +16,7 @@ export const HeroCard = ({ id,superhero,publisher,alter_ego,first_appearance,cha
                 </div>
                 <div className="col-8">
                   <div className="card-body">
-                    <h3 className="cart-tittle">{ superhero }</h3>
+                    <h3 className="cart-tittle">{ superhero } ppp</h3>
                     <p className="cart-text">{ alter_ego }</p>
 
                     {
