@@ -1,7 +1,7 @@
 import { Link, NavLink, useNavigate } from "react-router-dom";
 
 export const HeroCard = ({ id, superhero, publisher, alter_ego, first_appearance, character }) => {
-  const heroImg = `/heroes/${id}.jpg`;
+  const heroImg = `./heroes/${id}.jpg`;
   return (
     <div className="col animate__animated animate__fadeIn">
       <div className="card cardd">
