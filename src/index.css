@@ -1,6 +1,6 @@
 body{
     /* background-image: url('../assets/heroes/fondoo.jpg'); */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url('./heroes/fondoo.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url('../heroes/fondoo.jpg');
     background-position: center top; 
     color: #ffffff;
     padding: 10px;
