@@ -1,4 +1,4 @@
-@charset "UTF-8";body,html{background-image:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url(https://MichaelAndress.github.io/HeroApp-React/assets/fondoo-b62d5ef5.jpg);background-position:center top;color:#fff;padding:0 10px;background-size:cover}ul{list-style:none}.gridd{display:grid;grid-template-columns:repeat(auto-fit,minmax(450px,1fr));gap:20px}.cardd{height:100%;background-color:#0009;color:#fff}/*!
+@charset "UTF-8";body,html{background-image:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url(../assets/heroes/fondoo.jpg);background-position:center top;color:#fff;padding:10px;background-size:cover}ul{list-style:none}.gridd{display:grid;grid-template-columns:repeat(auto-fit,minmax(450px,1fr));gap:20px}.cardd{height:100%;background-color:#0009;color:#fff}/*!
  * animate.css - https://animate.style/
  * Version - 4.1.1
  * Licensed under the MIT license - http://opensource.org/licenses/MIT
