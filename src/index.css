@@ -1,8 +1,10 @@
-body{
+body,html{
     /* background-image: url('../assets/heroes/fondoo.jpg'); */
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../assets/heroes/fondoo.jpg');
     background-position: center top; 
     color: #ffffff;
+    padding: 0 10px;
+    background-size:cover;
 }
 ul{
    list-style: none; 
@@ -11,11 +13,12 @@ ul{
 
 .gridd{
     display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(350px, 1fr) );
+    grid-template-columns: repeat( auto-fit, minmax(450px, 1fr) );
     gap: 20px;
 }
 
 .cardd{
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
     color: #ffffff;
 }

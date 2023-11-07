@@ -3,6 +3,7 @@ import { useForm } from "../../hooks/useForm"
 import { HeroCard } from "../components"
 import queryString from "query-string"
 import { getHeroByName } from "../helpers/getHeroByName";
+import { Navbar } from "../../ui";
 
 export const SearchPage = () => {
 
@@ -36,6 +37,7 @@ export const SearchPage = () => {
 
   return (
     <>
+    <Navbar/>
       <div className="row ">
         <h1>Search</h1>
         <hr />
