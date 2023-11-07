@@ -11,7 +11,7 @@ export const HeroPage = () => {
 
   const hero = useMemo(()=> getHeroById( id ),[ id ]); 
 
-  const heroImg =`/assets/heroes/${id}.jpg`;
+  const heroImg =`./heroes/${id}.jpg`;
 
   const onReturn=()=>{
 
