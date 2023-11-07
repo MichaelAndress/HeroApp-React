@@ -3,7 +3,7 @@ import { Link, NavLink, useNavigate } from "react-router-dom";
 
 export const HeroCard = ({ id,superhero,publisher,alter_ego,first_appearance,character }) => {
 
-  const heroImg =`./assets/heroes/${id}.jpg`;
+  const heroImg =`../../../assets/heroes/${id}.jpg`;
 
 
 
