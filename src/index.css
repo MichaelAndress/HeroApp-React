@@ -6,6 +6,7 @@ body{
     padding: 10px;
     background-size:cover;
     min-height: 100vh;
+    overflow:hidden;
 }
 ul{
    list-style: none; 
